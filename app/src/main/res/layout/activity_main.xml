@@ -24,4 +24,28 @@
         tools:layout_editor_absoluteX="26dp"
         tools:layout_editor_absoluteY="120dp" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="578dp" />
+
 </android.support.constraint.ConstraintLayout>
