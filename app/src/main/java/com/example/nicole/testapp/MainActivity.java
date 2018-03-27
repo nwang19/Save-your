@@ -1,5 +1,6 @@
 package com.example.nicole.testapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 //import android.app.*;
@@ -27,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("button clicked");
     }
 
+    public void openHeartAttackInstructions(View view){
+        Intent intent = new Intent(MainActivity.this, HeartAttackInstructions.class);
+        startActivity(intent);
+    }
     /*public void buttonOnClick(View v)
     {
 
