@@ -6,4 +6,76 @@
     android:layout_height="match_parent"
     tools:context="com.example.nicole.testapp.HeartAttackInstructions">
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="380dp"
+        android:layout_marginStart="40dp"
+        android:text="Sudden, severe pain in the chest and upper back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="288dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="440dp"
+        android:layout_marginStart="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="How would you describe the pain?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="324dp"
+        android:layout_marginStart="48dp"
+        android:text="Sharp chest pain that often gets worse when you take a deep breath or cough"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="268dp"
+        android:layout_marginStart="40dp"
+        android:text="Pain accompanied with fast breathing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:layout_marginStart="40dp"
+        android:text="Inflammation where the ribs join the breast bone or sternum"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="140dp"
+        android:layout_marginStart="36dp"
+        android:text="Sharp, tingling pain on one side that stretches from the chest to the back, and may cause a rash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginStart="76dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="None of these"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

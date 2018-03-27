@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HeartAttackInstructions"></activity>
+        <activity android:name=".HeartAttackInstructions" />
+        <activity android:name=".SSPain"></activity>
     </application>
 
 </manifest>
