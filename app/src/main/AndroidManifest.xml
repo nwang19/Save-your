@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".HeartAttackInstructions" />
-        <activity android:name=".SSPain"></activity>
+        <activity android:name=".SSPain" />
+        <activity android:name=".MoreChestPain"></activity>
     </application>
 
 </manifest>
