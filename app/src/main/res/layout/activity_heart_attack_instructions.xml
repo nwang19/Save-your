@@ -10,13 +10,16 @@
         android:id="@+id/checkBox"
         android:layout_width="282dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="360dp"
+        android:layout_marginBottom="344dp"
         android:layout_marginStart="40dp"
+        android:checked="true"
+        android:onClick="onCheckboxClicked"
         android:text="Pain spread to your jaw, left arm, or between your shoulder blades"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.451"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:clickable="true" />
 
     <EditText
         android:id="@+id/editText"
@@ -36,12 +39,12 @@
         android:id="@+id/checkBox2"
         android:layout_width="287dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="112dp"
         android:layout_marginStart="48dp"
         android:text="Anigma symptoms occur while at rest"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
@@ -61,26 +64,26 @@
         android:id="@+id/checkBox4"
         android:layout_width="289dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="244dp"
         android:layout_marginStart="48dp"
         android:checked="false"
         android:duplicateParentState="false"
         android:text="You know you have anigma and your chest discomfort is suddenly more intense, brought on by lighter activity, or lasts longer than normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <CheckBox
         android:id="@+id/checkBox5"
         android:layout_width="285dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="156dp"
         android:layout_marginStart="48dp"
         android:text="sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for operation) or other lack of movement, especially if one leg is more swollen than the other"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintHorizontal_bias="0.039"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button

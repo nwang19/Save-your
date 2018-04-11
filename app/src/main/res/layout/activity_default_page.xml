@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicole.testapp.DefaultPage">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="264dp"
+        android:layout_height="368dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginStart="60dp"
+        android:text="Oops! Looks like we do not know what is going on... Save-your lists only the most critical symptoms, so if your symptom is not one of these, it is probably a good sign However, we still recommend that you call your provider or even 911 if your symptoms get severe."
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
