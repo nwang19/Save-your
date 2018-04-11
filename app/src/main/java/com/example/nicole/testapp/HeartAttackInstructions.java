@@ -20,6 +20,7 @@ public class HeartAttackInstructions extends AppCompatActivity {
     //precondition: one of the 911 symptoms are clicked on
     //post-condition: goes to call 911 page
     public void onCheckboxClicked(View view) {
-        Intent intent = new Intent (HeartAttackInstructions.this, Call_911.class);
+        Intent intent = new Intent (HeartAttackInstructions.this, UnconsciousInstructionsHA.class);
+        startActivity(intent);
     }
 }

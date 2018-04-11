@@ -20,7 +20,9 @@
         <activity android:name=".SSPain" />
         <activity android:name=".MoreChestPain" />
         <activity android:name=".DefaultPage" />
-        <activity android:name=".Call_911"></activity>
+        <activity android:name=".UnconsciousInstructionsHA" />
+        <activity android:name=".HAInstructions2" />
+        <activity android:name=".Fainting"></activity>
     </application>
 
 </manifest>

@@ -6,4 +6,58 @@
     android:layout_height="match_parent"
     tools:context="com.example.nicole.testapp.MoreChestPain">
 
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="321dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="404dp"
+        android:layout_marginStart="32dp"
+        android:onClick="openinstructions"
+        android:text="fever or a cough that produces yellow-green phlegm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="302dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="312dp"
+        android:layout_marginStart="40dp"
+        android:onClick="openinstructions"
+        android:text="chest pain that is severe and does not go away"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="298dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="212dp"
+        android:layout_marginStart="40dp"
+        android:onClick="openinstructions"
+        android:text=" having problems swallowing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="295dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="116dp"
+        android:layout_marginStart="44dp"
+        android:onClick="openinstructions"
+        android:text="Chest pain lasts longer than 3 to 5 days"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:layout_marginStart="128dp"
+        android:onClick="default1"
+        android:text="None of these"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

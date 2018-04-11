@@ -28,7 +28,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="120dp"
-        android:text="Button"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Fainting"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,7 +43,7 @@
         android:layout_marginTop="120dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,8 +61,8 @@
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="244dp"
-        android:layout_marginStart="24dp"
+        android:layout_marginBottom="260dp"
+        android:layout_marginStart="36dp"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -74,7 +75,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="@android:color/holo_red_dark"
-        android:onClick="sendMessage"
+        android:onClick="call911"
         android:text="CALL 911"
         android:textColor="@android:color/background_light"
         app:layout_constraintEnd_toEndOf="parent"

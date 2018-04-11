@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicole.testapp.Fainting">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="424dp"
+        android:layout_marginStart="36dp"
+        android:text="Fell from a height, especially if injured or bleeding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="360dp"
+        android:layout_marginStart="36dp"
+        android:text="Does not become alert quickly (within a couple of minutes)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="292dp"
+        android:layout_marginStart="36dp"
+        android:text="Is pregnant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:text="Is over age 50"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:text="Has diabetes (check for medical identification bracelets)"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:text="Feels chest pain, pressure, or discomfort"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="388dp" />
+</android.support.constraint.ConstraintLayout>
