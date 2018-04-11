@@ -6,21 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.nicole.testapp.HeartAttackInstructions">
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="282dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="344dp"
-        android:layout_marginStart="40dp"
-        android:checked="true"
-        android:onClick="onCheckboxClicked"
-        android:text="Pain spread to your jaw, left arm, or between your shoulder blades"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:clickable="true" />
-
     <EditText
         android:id="@+id/editText"
         android:layout_width="288dp"
@@ -35,57 +20,6 @@
         app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <CheckBox
-        android:id="@+id/checkBox2"
-        android:layout_width="287dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="112dp"
-        android:layout_marginStart="48dp"
-        android:text="Anigma symptoms occur while at rest"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="285dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="312dp"
-        android:layout_marginStart="28dp"
-        android:checked="false"
-        android:text="Pain, nausea, dizziness, sweating, a racing heart, or shortness of breath"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.309"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="289dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="244dp"
-        android:layout_marginStart="48dp"
-        android:checked="false"
-        android:duplicateParentState="false"
-        android:text="You know you have anigma and your chest discomfort is suddenly more intense, brought on by lighter activity, or lasts longer than normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <CheckBox
-        android:id="@+id/checkBox5"
-        android:layout_width="285dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="156dp"
-        android:layout_marginStart="48dp"
-        android:text="sudden, sharp chest pain with shortness of breath, especially after a long trip, a stretch of bedrest (for operation) or other lack of movement, especially if one leg is more swollen than the other"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.039"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="230dp"
@@ -98,17 +32,36 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <CheckBox
-        android:id="@+id/checkBox6"
-        android:layout_width="279dp"
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="286dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="396dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="Sudden crushing, squeezing, tightening, or pressure in your chest"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="sudden crushing, squeezing, tightening, or pressure in your chest."
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:text="Pain spreads (radiates) to your jaw, left arm, or between your shoulder blades"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:text="nausea, dizziness, sweating, a racing heart, or shortness of breath"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:text="sudden, sharp chest pain with shortness of breath, especially if one leg is swollen or more swollen than the other"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="294dp" />
 
 </android.support.constraint.ConstraintLayout>

@@ -14,7 +14,7 @@ public class HeartAttackInstructions extends AppCompatActivity {
     }
 
     public void openMoreChestPain(View view) {
-        Intent intent = new Intent(HeartAttackInstructions.this, MoreChestPain.claaddss);
+        Intent intent = new Intent(HeartAttackInstructions.this, MoreChestPain.class);
         startActivity(intent);
     }
     //precondition: one of the 911 symptoms are clicked on
