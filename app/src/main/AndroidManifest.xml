@@ -32,7 +32,10 @@
         <activity android:name=".BleedingOutInstructions2" />
         <activity android:name=".PreventShock" />
         <activity android:name=".Tourniquet" />
-        <activity android:name=".DifficultyBreathing"></activity>
+        <activity android:name=".DifficultyBreathing" />
+        <activity android:name=".DBInstructions" />
+        <activity android:name=".DB2" />
+        <activity android:name=".DBInstructions2"></activity>
     </application>
 
 </manifest>

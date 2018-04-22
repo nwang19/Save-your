@@ -27,6 +27,7 @@
         android:layout_marginBottom="364dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="48dp"
+        android:onClick="openInstructions"
         android:text="Breathing difficulty comes on suddenly or seriously interferes with your breathing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +41,7 @@
         android:layout_marginBottom="300dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="32dp"
+        android:onClick="openInstructions"
         android:text="Somebody completely stops breathing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,6 +51,7 @@
         android:id="@+id/button46"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="openMoreDB"
         android:text="None of these"
         tools:layout_editor_absoluteX="228dp"
         tools:layout_editor_absoluteY="435dp" />

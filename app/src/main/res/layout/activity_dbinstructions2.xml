@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicole.testapp.DBInstructions2">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:text="If none of the earlier symptoms applied, it is probably not severe enough to call 911. However, still call your health care provider right away if you/the patient:\n*Have a cold or other respiratory infection and are having difficulty breathing \n*Have a cough that does not go away after 2 or 3 weeks \n*Are coughing up blood Are losing weight without meaning to or having night sweats \n*Cannot get to sleep or wake up at night because of breathing difficulty \n*Notice it is hard to breathe when doing things that you normally do without breathing difficulty, for example, climbing stairs \n*Also call your provider if your child has a cough and is making a barking sound."
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+</android.support.constraint.ConstraintLayout>
