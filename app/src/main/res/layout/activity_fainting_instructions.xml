@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicole.testapp.FaintingInstructions">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="305dp"
+        android:layout_height="95dp"
+        android:text="Step 1: Check for breathing and call 911. If not breathing, begin CPR if licensed or find someone who can if they are nearby."
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="302dp"
+        android:layout_height="51dp"
+        android:text="Step 2: Loosen tight clothing around neck."
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="312dp"
+        android:layout_height="46dp"
+        android:text="Step 3: Raise person's feet above level of heart (about 12 inches)"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="326dp"
+        android:layout_height="58dp"
+        android:text="Step 4: If person has vomitted, turn person on side to prevent choking."
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+</android.support.constraint.ConstraintLayout>

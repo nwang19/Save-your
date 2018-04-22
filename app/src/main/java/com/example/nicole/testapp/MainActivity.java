@@ -35,4 +35,12 @@ public class MainActivity extends AppCompatActivity {
         intent.setData(Uri.parse("tel:911"));
         startActivity(intent);
     }
+    public void openFainting(View view){
+        Intent intent = new Intent(MainActivity.this, Fainting.class);
+        startActivity(intent);
+    }
+    public void openBleedingOut(View view){
+        Intent intent = new Intent (MainActivity.this, BleedingOut.class);
+        startActivity(intent);
+    }
 }

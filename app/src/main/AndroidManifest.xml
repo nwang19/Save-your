@@ -22,7 +22,12 @@
         <activity android:name=".DefaultPage" />
         <activity android:name=".UnconsciousInstructionsHA" />
         <activity android:name=".HAInstructions2" />
-        <activity android:name=".Fainting"></activity>
+        <activity android:name=".Fainting" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".BleedingOut" />
+        <activity android:name=".MoreFainting" />
+        <activity android:name=".FaintingInstructions" />
+        <activity android:name=".FaintingInstructions2"></activity>
     </application>
 
 </manifest>
