@@ -35,7 +35,15 @@
         <activity android:name=".DifficultyBreathing" />
         <activity android:name=".DBInstructions" />
         <activity android:name=".DB2" />
-        <activity android:name=".DBInstructions2"></activity>
+        <activity android:name=".DBInstructions2" />
+        <activity android:name=".MildSeizure" />
+        <activity android:name=".MoreSeizure" />
+        <activity android:name=".MoreStroke" />
+        <activity android:name=".SeizureAssistance" />
+        <activity android:name=".SeizureInstructions" />
+        <activity android:name=".SeizureSteps" />
+        <activity android:name=".Stroke" />
+        <activity android:name=".StrokeInstructions"></activity>
     </application>
 
 </manifest>
