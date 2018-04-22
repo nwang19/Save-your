@@ -27,7 +27,12 @@
         <activity android:name=".BleedingOut" />
         <activity android:name=".MoreFainting" />
         <activity android:name=".FaintingInstructions" />
-        <activity android:name=".FaintingInstructions2"></activity>
+        <activity android:name=".FaintingInstructions2" />
+        <activity android:name=".BleedingOutInstructions" />
+        <activity android:name=".BleedingOutInstructions2" />
+        <activity android:name=".PreventShock" />
+        <activity android:name=".Tourniquet" />
+        <activity android:name=".DifficultyBreathing"></activity>
     </application>
 
 </manifest>

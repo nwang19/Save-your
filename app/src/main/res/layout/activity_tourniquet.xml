@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicole.testapp.Tourniquet">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="320dp"
+        android:layout_height="334dp"
+        android:layout_marginBottom="176dp"
+        android:layout_marginStart="32dp"
+        android:text="Apply tourniquet to the limb 2 to 3 inches (5 to 7.5 cm) above the bleeding wound. Avoid the joint. If needed, place the tourniquet above the joint, toward the torso. \nIf possible, do not apply the tourniquet below the skin. Use padding or apply the tourniquet over the pant leg or sleeve. \n1: If you have a first-aid kit that comes with a tourniquet, apply it to the limb. \n2: If you don't, use bandages 2 to 4 inches (5 to 10 cm) wide and wrap them around the limb several times. Tie a half or square knot, leaving loose edges long enough to tie another knot. A stick or a stiff rod should be placed between the two knots. Twist the stick until the bandage is tight enough to step the bleeding and then secure it in place. (diagram below)\n"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="287dp"
+        android:layout_height="196dp"
+        android:layout_marginStart="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tourniquet" />
+
+</android.support.constraint.ConstraintLayout>

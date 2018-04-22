@@ -6,4 +6,74 @@
     android:layout_height="match_parent"
     tools:context="com.example.nicole.testapp.BleedingOut">
 
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="340dp"
+        android:layout_height="71dp"
+        android:text="Do any of these apply? If so, call 911 before proceeding to the first aid instructions."
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Abdonimal, pelvic, groin, neck or chest wound"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Severe internal bleeding (symtpoms of internal bleeding below)"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="The patient takes blood-thinning medicine or has hemophilia"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="367dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="8dp"
+        android:text="Signs of infection develop, including increased pain, redness, swelling, yellow or brown fluid, swollen lymph nodes, fever, or red streaks spreading from the site toward the heart."
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="The injury was due to an animal or human bite."
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Bleeding is uncontrollable and requires a tourniquet, or was caused by a serious injury"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <Button
+        android:id="@+id/button37"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:text="none of these"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="463dp" />
 </android.support.constraint.ConstraintLayout>

@@ -22,15 +22,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.586" />
+        app:layout_constraintVertical_bias="0.592" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="200dp"
-        android:layout_height="75dp"
+        android:layout_height="68dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="352dp"
+        android:layout_marginTop="364dp"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:onClick="openFainting"
         android:text="Fainting"
@@ -53,15 +53,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.964" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="200dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="344dp"
+        android:layout_marginBottom="360dp"
         android:layout_marginStart="92dp"
         android:backgroundTint="@android:color/holo_blue_dark"
+        android:onClick="openBleedingOut"
         android:text="Bleeding Out"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -72,7 +73,6 @@
         android:layout_height="74dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
         android:backgroundTint="@android:color/holo_red_dark"
         android:onClick="call911"
         android:text="CALL 911"
@@ -85,7 +85,7 @@
         android:id="@+id/button24"
         android:layout_width="200dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="276dp"
+        android:layout_marginBottom="292dp"
         android:layout_marginStart="92dp"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="Stroke"
@@ -96,7 +96,7 @@
         android:id="@+id/button25"
         android:layout_width="200dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="212dp"
+        android:layout_marginBottom="220dp"
         android:layout_marginStart="92dp"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:text="Seizure"
