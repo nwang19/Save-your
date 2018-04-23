@@ -4,6 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nicole.testapp.MildSeizure">
+    tools:context=".MildSeizure">
 
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="345dp"
+        android:layout_height="437dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="This individual may be experiencing a seizure at this time, but it may not be severe enough to seek medical assistance\n1. Stay calm and keep the individual comfortable\n2. Find a comfortable place for them to rest\n3. Stay with them and ask questions(what day is it? what time?) until they are fully conscious\n4. If they are having trouble breathing, clear the saliva or vomit out of his or her mouth  "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
 </android.support.constraint.ConstraintLayout>

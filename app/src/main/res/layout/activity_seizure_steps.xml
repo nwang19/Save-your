@@ -4,6 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nicole.testapp.SeizureSteps">
+    tools:context=".SeizureSteps">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="292dp"
+        android:layout_height="355dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:text="1.                                                                      2. Keep track of the time that the seizure(s) begins and ends                                                3. Don't put anything into the person's mouth                                         4. Try to keep  them away from objects that could fall on them and cause injury          5. If they are having a seizure on the ground, try to lay them on their side                                             6. Don't hold them down"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="178dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:onClick="call911"
+        android:text="Call 911"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

@@ -43,4 +43,17 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (MainActivity.this, BleedingOut.class);
         startActivity(intent);
     }
+    public void openDB(View view){
+        Intent intent = new Intent(MainActivity.this, DifficultyBreathing.class);
+        startActivity(intent);
+    }
+    public void openStroke(View view){
+        Intent intent = new Intent (MainActivity.this, StrokeInstructions.class);
+        startActivity(intent);
+    }
+    public void openSeizue(View view){
+        Intent intent = new Intent(MainActivity.this, SeizureInstructions.class);
+        startActivity(intent);
+    }
+
 }

@@ -10,77 +10,87 @@
         android:id="@+id/button18"
         android:layout_width="287dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="392dp"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="72dp"
         android:onClick="openFaintingInstructions"
         android:text="Fell from a height, especially if injured or bleeding"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button19"
         android:layout_width="292dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="320dp"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="144dp"
         android:onClick="openFaintingInstructions"
         android:text="Does not become alert quickly (within a couple of minutes)"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button20"
         android:layout_width="286dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="252dp"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="216dp"
         android:onClick="openFaintingInstructions"
         android:text="Is pregnant"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button21"
         android:layout_width="292dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="284dp"
         android:onClick="openFaintingInstructions"
         android:text="Is over age 50"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="275dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button22"
         android:layout_width="294dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="348dp"
         android:onClick="openFaintingInstructions"
         android:text="Has diabetes (check for medical identification bracelets)"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="333dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button23"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="420dp"
         android:onClick="openFaintingInstructions"
         android:text="Feels chest pain, pressure, or discomfort"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="400dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="275dp"
         android:layout_height="49dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="4dp"
         android:text="Which of these apply?"
         android:textAppearance="@android:style/TextAppearance.Material.Large"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="496dp"
         android:onClick="openMoreFainting"
         android:text="None of these"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="466dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

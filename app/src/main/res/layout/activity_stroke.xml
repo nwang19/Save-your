@@ -4,6 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nicole.testapp.Stroke">
+    tools:context=".Stroke">
 
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="228dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="76dp"
+        android:onClick="call911"
+        android:text="Call 911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="305dp"
+        android:layout_height="321dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="108dp"
+        android:text="1.                                                                                                                                                                                                      2. Stay calm and stay by the person's side to make sure that their condition does not get worse                                                                           3. Do not offer any food/drinks or medicine                                             4. Take note of the time at which the stroke took place                                                                              5. Take note of any medications the person takes             "
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

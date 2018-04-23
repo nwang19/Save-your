@@ -4,6 +4,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nicole.testapp.MoreSeizure">
+    tools:context=".MoreSeizure">
 
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="464dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Do you see any of these symptoms?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="276dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:onClick="openEmergencyCheck"
+        android:text="Drooling or frothing at the mouth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="360dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="openEmergencyCheck"
+        android:text="Person suddenly stares blankly for several minutes (staring spells)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="188dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:onClick="openEmergencyCheck"
+        android:text="Sudden rapid eye movements"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="96dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:onClick="openEmergencyCheck"
+        android:text="They are making unusual noises such as grunting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginStart="116dp"
+        android:onClick="defaultPage"
+        android:text="None of these"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -12,12 +12,13 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Proceed with instructions only if it is an external wound. If the conditions listed before applied, call 911. \n \n Step 1: Calm and reassure the person. "
 
+        android:layout_marginTop="4dp"
+        android:text="Proceed with instructions only if it is an external wound. If the conditions listed before applied, call 911. \n \n Step 1: Calm and reassure the person. "
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -41,69 +42,73 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:layout_marginTop="188dp"
         android:text="Step 3: If the wounds are superficial (affects only top layer of skin, wash it with soap and water and pat dry."
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="188dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="244dp"
         android:text="Step 4: Lay the person down. When possible, raise up the part of the body that is bleeding."
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="238dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView22"
         android:layout_width="308dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="184dp"
-        android:layout_marginStart="24dp"
 
+        android:layout_marginTop="300dp"
         android:text="Step 5: Remove any loose debris or dirt that you can see from a wound."
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:layout_marginTop="96dp"
         android:text="Step 2: DO NOT remove an object such as a knife that is stuck in the body. It might cause more damage and bleeding. Put pads and bandages around he object and tape the object in place."
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="100dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView25"
         android:layout_width="377dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="92dp"
 
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="356dp"
         android:text="Step 6: Unless, this is an eye injury, put pressure directly on an outer wound with a sterile bandage, clean cloth, or a piece of clothing. If nothing is available, use hand. "
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="280dp"
         android:backgroundTint="@android:color/background_light"
         android:onClick="openMoreInstructions"
         android:text="Next"
         android:textColor="@android:color/holo_green_dark"
-        tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

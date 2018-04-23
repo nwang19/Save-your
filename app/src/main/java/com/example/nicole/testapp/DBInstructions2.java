@@ -3,7 +3,7 @@ package com.example.nicole.testapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DBInstructions2 extends AppCompatActivity {
+public class DBInstructions2 extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

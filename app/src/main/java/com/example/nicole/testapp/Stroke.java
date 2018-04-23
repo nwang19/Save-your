@@ -3,7 +3,7 @@ package com.example.nicole.testapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Stroke extends AppCompatActivity {
+public class Stroke extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
