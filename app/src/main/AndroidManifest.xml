@@ -43,7 +43,8 @@
         <activity android:name=".SeizureInstructions" />
         <activity android:name=".SeizureSteps" />
         <activity android:name=".Stroke" />
-        <activity android:name=".StrokeInstructions"></activity>
+        <activity android:name=".StrokeInstructions" />
+
     </application>
 
 </manifest>

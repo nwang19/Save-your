@@ -12,6 +12,7 @@
         android:layout_height="71dp"
         android:layout_marginStart="16dp"
         android:text="Do any of these apply? If so, call 911 before proceeding to the first aid instructions."
+        android:textAlignment="textStart"
         android:textAppearance="@android:style/TextAppearance.Material.Medium"
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintStart_toStartOf="parent"
