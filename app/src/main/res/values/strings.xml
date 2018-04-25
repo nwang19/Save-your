@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">test app</string>
     <string name="title_activity_user">User</string>
+    <string name="call_911">Call 911</string>
 </resources>

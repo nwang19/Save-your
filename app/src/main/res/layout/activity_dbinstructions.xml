@@ -12,11 +12,13 @@
         android:layout_height="384dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="60dp"
-        android:text="1: Call 911 and tell the operator about the condition that you just clicked on. \n2: While you wait, try to find someone that is certified in CPR. If there is no certified person, begin CPR yourself.\n3.Loosen any tight clothing. \n4.Help the person use any prescribed medicine (an asthma inhaler or home oxygen). \n6.Continue to monitor the person's breathing and pulse until medical help arrives. \n 7.Bandage any open wounds in the neck or chest at once. \n8:A sucking chest wound allows air to enter the person's chest cavity with each breasth. This can cause a collapsed lung. Bandage the wound with plastic wrap, a plastic bag, or gauze pads covered with petroleum jelly, sealing it except for one corner. This allows trapped air to escape from the chest, preventing air from entering the chest through the wound. "
+        android:text=""
         android:textColor="@android:color/background_dark"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:layout_marginLeft="24dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -26,7 +28,8 @@
         android:layout_marginTop="452dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/suckingchestwound" />
+        app:srcCompat="@drawable/suckingchestwound" android:contentDescription="TODO"
+        android:layout_marginLeft="184dp" />
 
     <Button
         android:id="@+id/button50"
@@ -35,8 +38,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:onClick="call911"
-        android:text="Call 911"
+        android:text="@string/call_911"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick"
+        android:layout_marginLeft="8dp" />
+
 
 </android.support.constraint.ConstraintLayout>
